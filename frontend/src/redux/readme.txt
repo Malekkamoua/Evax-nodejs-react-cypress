@@ -1,0 +1,1 @@
+in this folder we will find the redux structure. 

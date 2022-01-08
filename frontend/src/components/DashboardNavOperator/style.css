@@ -1,0 +1,51 @@
+.site-layout-background-header {
+  height: 11.5vh;
+}
+.site-layout-background-header .trigger {
+  font-size: 30px;
+  line-height: 64px;
+  cursor: pointer;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  margin-right: 100px;
+  transition: color 0.3s;
+}
+.ant-layout-header {
+  padding: 0;
+  height: 10.6vh;
+  background-color: #1890ff;
+}
+/* .ant-layout-sider {
+  padding: 0;
+  background: #1890ff;
+} */
+/* .ant-menu {
+  background-color: #1890ff;
+  color: white;
+} */
+/* .ant-menu-submenu-arrow {
+  color: white;
+} */
+.site-layout-background-header .trigger:hover {
+  color: lightblue;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.logo p {
+  display: inline-flex;
+  margin-left: 0.8vw;
+  font-family: monospace;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* .site-layout .site-layout-background {
+  background: #fff;
+} */

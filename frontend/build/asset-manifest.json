@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Malekkamoua/evax-frontend/static/css/main.c3f8a2bc.chunk.css",
+    "main.js": "/Malekkamoua/evax-frontend/static/js/main.f1b11296.chunk.js",
+    "main.js.map": "/Malekkamoua/evax-frontend/static/js/main.f1b11296.chunk.js.map",
+    "runtime-main.js": "/Malekkamoua/evax-frontend/static/js/runtime-main.f7f3e929.js",
+    "runtime-main.js.map": "/Malekkamoua/evax-frontend/static/js/runtime-main.f7f3e929.js.map",
+    "static/css/2.056afcc8.chunk.css": "/Malekkamoua/evax-frontend/static/css/2.056afcc8.chunk.css",
+    "static/js/2.0958042a.chunk.js": "/Malekkamoua/evax-frontend/static/js/2.0958042a.chunk.js",
+    "static/js/2.0958042a.chunk.js.map": "/Malekkamoua/evax-frontend/static/js/2.0958042a.chunk.js.map",
+    "index.html": "/Malekkamoua/evax-frontend/index.html",
+    "static/css/2.056afcc8.chunk.css.map": "/Malekkamoua/evax-frontend/static/css/2.056afcc8.chunk.css.map",
+    "static/css/main.c3f8a2bc.chunk.css.map": "/Malekkamoua/evax-frontend/static/css/main.c3f8a2bc.chunk.css.map",
+    "static/js/2.0958042a.chunk.js.LICENSE.txt": "/Malekkamoua/evax-frontend/static/js/2.0958042a.chunk.js.LICENSE.txt",
+    "static/media/image_gif.81acdd19.gif": "/Malekkamoua/evax-frontend/static/media/image_gif.81acdd19.gif",
+    "static/media/img1.84b5098f.jpg": "/Malekkamoua/evax-frontend/static/media/img1.84b5098f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7f3e929.js",
+    "static/css/2.056afcc8.chunk.css",
+    "static/js/2.0958042a.chunk.js",
+    "static/css/main.c3f8a2bc.chunk.css",
+    "static/js/main.f1b11296.chunk.js"
+  ]
+}

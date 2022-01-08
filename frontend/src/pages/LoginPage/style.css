@@ -1,0 +1,27 @@
+.page {
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* padding-bottom: 2vh; */
+}
+.card-form {
+  width: 40vw;
+  height: 60vh;
+  background-color: transparent;
+}
+.image {
+  height: auto;
+  width: 35vw;
+}
+.login-legend {
+  text-align: center;
+  font-size: 35px;
+  font-family: monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0096ff;
+  letter-spacing: 4;
+}

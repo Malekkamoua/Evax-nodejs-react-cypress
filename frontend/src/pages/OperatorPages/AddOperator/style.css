@@ -1,0 +1,14 @@
+.container {
+    width: 75vw;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .card-form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 60vw;
+    height: 67vh;
+  }

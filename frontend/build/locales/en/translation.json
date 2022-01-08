@@ -1,0 +1,55 @@
+{
+    "Titre": {
+        "1": "Better than Evax"
+    },
+    "Navigation": {
+        "1": "Home",
+        "2": "Useful information",
+        "3": "Steps of the campaign",
+        "4": "Contact",
+        "5": "Citizen space"
+    },
+    "Pourquoi": {
+        "1": "Why get vaccinated?",
+        "2": "To be vaccinated is to protect yourself, but also to protect those around you. The more people a community has vaccinated, the more it prevents the risk of epidemics. Vaccination saves millions of lives each year and helps eliminate diseases in many parts of the world."
+    },
+    "Informations": {
+        "1": "Useful Information",
+        "2": "REGISTER",
+        "3": "How do I register for Covid-19 vaccination? Register via: email: email@gmail.com password: *****",
+        "4": "WHAT ARE THE OBJECTIVES OF THE VACCINATION?",
+        "5": "The first objective of vaccination is to reduce the number of severe forms of COVID-19. Vaccination can massively reduce mortality from the virus and its severe forms.",
+        "6": "WILL VACCINATION AGAINST COVID-19 BE FREE?",
+        "7": "Yes, vaccination will be free for all in Tunisia, but according to the priority established by the authorities",
+        "8": "WHERE TO GET VACCINATED?",
+        "9": "There will be about 200 vaccination centers at a rate of : 1 to 2 large (s) center (s) per governorate open all week And one center per delegation to be identified by regional health directorate open on weekends.",
+        "10": "WHAT TO DO IN CASE OF PROBLEMS DURING REGISTRATION?",
+        "11": "A toll-free number has been set up to support citizens throughout the vaccination campaign. The toll-free number: 80102021, open Monday to Friday from 09:00 to 17:00.",
+        "12": "WHAT ARE THE MAIN PRINCIPLES OF THE VACCINATION STRATEGY AGAINST COVID-19?",
+        "13": "equitable access to free, effective, safe, and quality vaccines approved by scientific evidence in a timely manner personal decision making based on transparent and understandable data"
+    },
+    "Etapes": {
+        "1": "Vacccination campaign steps",
+        "2": "Registration",
+        "3": "The 1st step is to register.",
+        "4": "Appointment assignment",
+        "5": "The 2nd step is to receive an appointment at a vaccination center.",
+        "6": "Vaccination",
+        "7": "The 3rd step is the vaccination (primary vaccination, then booster vaccination).",
+        "8": "Follow-up.",
+        "9": "The 4th step is the follow-up of the vaccine and the download of the certificate of vacccination."
+    },
+    "Contact": {
+        "1": "CONTACTS",
+        "2": "Contact us",
+        "3": "Send",
+        "4": "We're always happy to hear from you."
+    },
+    "Form": {
+        "1": "Email address",
+        "2": "Message"
+    },
+    "Footer": {
+        "1": "Working together to build the best apps"
+    }
+}

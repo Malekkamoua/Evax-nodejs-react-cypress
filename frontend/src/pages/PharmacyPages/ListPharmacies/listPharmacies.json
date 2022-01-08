@@ -1,0 +1,21 @@
+[
+    {
+        "_id":"618d227c5f91156257f38f39",
+        "name":"Pharmacy Ariana",
+        "address":"Ariana/Grande Ariana",
+        "owner":"Ahmed Chelbi"
+    },
+    {
+        "_id":"618d227c5f91156257f38f39",
+        "name":"Pharmacy Mourouj",
+        "address":"Ben Arous",
+        "owner":"Marwen Bennia"
+    },
+    {
+        "_id":"618d227c5f91156257f38f39",
+        "name":"Pharmacy Tunis",
+        "address":"Tunis",
+        "owner":"Asma Brahmi"
+    }
+
+]

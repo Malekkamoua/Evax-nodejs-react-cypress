@@ -1,0 +1,55 @@
+{
+    "Titre": {
+        "1": "Meilleur que Evax"
+    },
+    "Navigation": {
+        "1": "Accueil",
+        "2": "Informations utiles",
+        "3": "Etapes de la compagne",
+        "4": "Contact",
+        "5": "Espace citoyen"
+    },
+    "Pourquoi": {
+        "1": "Pourquoi se faire vacciner ?",
+        "2": " Se faire vacciner, c’est se protéger soi, mais aussi protéger ceux qui nous entourent. Plus une collectivité compte de personnes vaccinées, plus elle prévient les risques d’épidémies. La vaccination permet de sauver des millions de vie chaque année et aide à éliminer des maladies dans de nombreuses régions du monde."
+    },
+    "Informations": {
+        "1": "Informations utiles",
+        "2": "S'ENREGISTER",
+        "3": "Comment s’enregistrer pour la vaccination Covid-19 ? S'enregister via: email: email@gmail.com mot de passe: *****",
+        "4": "QUELS SONT LES OBJECTIFS DE LA VACCINATION ?",
+        "5": "Le premier objectif de la vaccination, c’est de faire baisser le nombre des formes graves de COVID-19. La vaccination permet de réduire massivement la mortalité due au virus et à ses formes graves.",
+        "6": "LA VACCINATION CONTRE LA COVID-19 SERA-T-ELLE GRATUITE ?",
+        "7": "Oui. La vaccination sera gratuite pour tous en Tunisie, mais selon la priorité établie par l es autorités.",
+        "8": "OÙ SE FAIRE VACCINER ?",
+        "9": "Il y aura environ 200 centres de vaccination à raison de : 1 à 2 grand (s) centre(s) par gouvernorat ouvert toute la semaine Et un centre par délégation à identifier par direction régionale de la santé ouvert le weekend",
+        "10": "QUE FAIRE EN CAS DE PROBLÈME LORS DE L'INSCRIPTION?",
+        "11": "Un numéro vert gratuit a été mis en place pour accompagner les citoyens tout au long de la campagne de vaccination. Le numéro vert : 80102021, ouvert du lundi au vendredi de 09h à 17h",
+        "12": "QUELS SONT LES GRANDS PRINCIPES DE LA STRATÉGIE DE VACCINATION CONTRE LA COVID-19 ?",
+        "13": "un accès équitable pour des vaccins gratuits, efficaces, sûrs et de qualité approuvés par les données scientifiques en temps opportun une prise de décision personnelle basée sur des données transparentes et compréhensibles"
+    },
+    "Etapes": {
+        "1": "Etapes de la compagne de vacccination",
+        "2": "Inscription",
+        "3": "La 1ère étape est de s'inscrire.",
+        "4": "Affectation de rendez-vous",
+        "5": "La 2ème étape est de recevoir une convocation dans un centre de vaccination.",
+        "6": "Vaccination",
+        "7": "La 3ème étape est le vaccin (primo-vaccination, puis vaccin de rappel).",
+        "8": "Suivi",
+        "9": "La 4ème étape est le suivi du vaccin et le téléchargement de l'attestation de vacccination."
+    },
+    "Contact": {
+        "1": "CONTACTS",
+        "2": "Communiquer avec nous",
+        "3": "Envoyer",
+        "4": "Nous sommes toujours ravis de vous entendre."
+    },
+    "Form": {
+        "1": "Adresse mail",
+        "2": "Message"
+    },
+    "Footer": {
+        "1": "Working together to build the best apps"
+    }
+}
