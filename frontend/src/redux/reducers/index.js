@@ -9,6 +9,7 @@ import vaccine from "./vaccineReducer";
 import auth from "./authReducers";
 import appointment from "./appointmentReducers";
 import jpo from "./jpoReducers";
+import stats from "./statsReducers";
 
 export default combineReducers({
   auth,
@@ -20,4 +21,5 @@ export default combineReducers({
   vaccine,
   appointment,
   jpo,
+  stats,
 });

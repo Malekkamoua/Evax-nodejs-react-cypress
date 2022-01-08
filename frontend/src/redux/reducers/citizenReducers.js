@@ -20,6 +20,7 @@ const initialState = {
   citizen: {},
   error: "",
   message: "",
+  message_appointment: "",
   loading_appointment: false,
 };
 
@@ -69,7 +70,7 @@ function citizenReducer(state = initialState, { type, payload }) {
     case BOOK_APPOINTMENT_SUCCESS:
       return {
         ...state,
-        message: payload,
+        message_appointment: payload,
         loading: false,
         error: "",
         loading_appointment: false,
