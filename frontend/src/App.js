@@ -21,6 +21,8 @@ import ProfilePage from "./pages/frontOffice/ProfilePage/ProfilePage";
 import ListVolunteers from "./pages/VolunteerPages/ListVolunteers/ListVolunteers";
 import AddVolunteer from "./pages/VolunteerPages/AddVolunteer/AddVolunteer";
 import HomePage from "./pages/frontOffice/HomePage/HomePage";
+import StatsPage from "./pages/frontOffice/StatsPage/StatsPage";
+
 import OperatorDashboard from "./pages/OperatorDashboard/OperatorDashboard";
 
 import GeneratePassword from "./pages/frontOffice/GeneratePassword/GeneratePassword";
@@ -77,8 +79,8 @@ function App() {
           <Switch>
             <ProtectedRouteAdmin
               exact
-              path="/dashboard"
-              component={DashboardAdmin}
+              path="/dashboard/Stats"
+              component={StatsPage}
             />
             <ProtectedRouteAdmin
               exact

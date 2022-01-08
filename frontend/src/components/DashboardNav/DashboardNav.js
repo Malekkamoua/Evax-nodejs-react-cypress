@@ -23,9 +23,15 @@ export default function DashboardNav(props) {
         style={{ padding: 0 }}
       >
         <div className="logo">{!collapsed ? <p>Admin Dashboard</p> : ""}</div>
-        {/* you need to give a key to every Menu.Item then use the defaultSelectedKeys to render it */}
-        {/* every SubMenu have a title and a key */}
+
         <Menu theme="dark" defaultSelectedKeys={["1"]} mode="inline">
+          <SubMenu key="sub11" icon={<BankOutlined />} title="Statistics">
+            <Menu.Item key="16">
+              <Link to="/dashboard/Stats">
+                <p>View statistics</p>
+              </Link>
+            </Menu.Item>
+          </SubMenu>
           <SubMenu key="sub1" icon={<BankOutlined />} title="Pharmacies">
             <Menu.Item key="3">
               <Link to="/dashboard/addPharmacy">
@@ -41,7 +47,7 @@ export default function DashboardNav(props) {
           </SubMenu>
 
           <SubMenu key="sub2" icon={<BankOutlined />} title="Center">
-            <Menu.Item key="6">
+            <Menu.Item key="5">
               <Link to="/dashboard/addCenter">
                 <p>Add Center</p>
               </Link>
@@ -102,8 +108,8 @@ export default function DashboardNav(props) {
               </Link>
             </Menu.Item>
           </SubMenu>
-          <SubMenu key="sub7" icon={<TeamOutlined />} title="Citizen">
-            <Menu.Item key="13">
+          <SubMenu key="sub71" icon={<TeamOutlined />} title="Citizen">
+            <Menu.Item key="117">
               <Link to="/dashboard/listCitizens">
                 <p>LIST Citizens</p>
               </Link>
@@ -128,7 +134,7 @@ export default function DashboardNav(props) {
               </Link>
             </Menu.Item>
           </SubMenu>
-          <Menu.Item key="9" icon={<FileOutlined />}>
+          <Menu.Item key="91" icon={<FileOutlined />}>
             Files
           </Menu.Item>
         </Menu>

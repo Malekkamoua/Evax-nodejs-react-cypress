@@ -13,7 +13,7 @@ const ReportVaccin = React.forwardRef((props, ref) => {
   useEffect(() => {
     dispatch(getReportAction(user.citizen_id));
     console.log(reports);
-  }, [dispatch, reports, user.citizen_id]);
+  }, [dispatch]);
 
   return (
     <div style={{ fontSize: "15px" }} ref={ref}>

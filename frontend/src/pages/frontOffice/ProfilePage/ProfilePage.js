@@ -10,7 +10,6 @@ import {
 import { fetchAllCentersAction } from "../../../redux/actions/centerAction";
 import runNotification from "../../../utils/runNotification";
 import ReportVaccin from "../../../components/ReportVaccin/ReportVaccin";
-import PrintReport from "../../../components/PrintReport/PrintReport";
 
 export default function ProfilePage() {
   const user = JSON.parse(localStorage.getItem("user"));
@@ -18,7 +17,7 @@ export default function ProfilePage() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchCitizenAction(user.citizen_id));
-  }, [dispatch, user.citizen_id]);
+  }, [dispatch]);
 
   const citizen = useSelector((state) => state.citizen);
 
@@ -38,7 +37,7 @@ export default function ProfilePage() {
   };
 
   const handleOk = () => {
-    if (center === undefined) {
+    if (center == undefined) {
       runNotification(
         "error",
         "Pas de rendez-vous",
@@ -61,16 +60,16 @@ export default function ProfilePage() {
   useEffect(() => {
     if (citizen.error)
       runNotification("error", "Pas de rendez-vous", citizen.error);
-  }, [citizen.loading_appointment, citizen.error]);
+  }, [citizen.loading_appointment]);
 
   useEffect(() => {
-    if (citizen.error)
+    if (citizen.message_appointment != "")
       runNotification(
         "success",
         "Rendez-vous",
         "Vous venez de recevoir la date et l'horaire de votre rendez-vous via mail. Veuillez verifier votre courriel"
       );
-  }, [citizen.message, citizen.error]);
+  }, [citizen.loading_appointment]);
 
   const handleCancel = () => {
     setIsModalVisible(false);
@@ -137,7 +136,15 @@ export default function ProfilePage() {
               </div>
             </div>
             <div style={{ float: "right", display: "inline-block" }}>
-              <PrintReport />
+              <button
+                style={{ marginRight: "4px" }}
+                className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded "
+              >
+                Modifier mes informations
+              </button>
+              <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded ">
+                Imprimer mon pass sanitaire
+              </button>
             </div>
           </div>
         </div>
